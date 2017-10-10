@@ -9,9 +9,9 @@ class ControllerExtensionModuleCodeIkebanaItalian extends Controller
 
     // Language
     private $language_pl = array(
-        'name' => 'Polski',
-        'code' => 'pl',
-        'locale' => 'pl-PL,UTF-8',
+        'name' => 'Italian',
+        'code' => 'it',
+        'locale' => 'it-IT,UTF-8',
         'sort_order' => '1',
         'status' => '1'
     );
