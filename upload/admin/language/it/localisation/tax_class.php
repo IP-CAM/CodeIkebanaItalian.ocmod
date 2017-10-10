@@ -1,0 +1,31 @@
+<?php
+// Heading
+$_['heading_title']     = 'Classe di Iva';
+
+// Text
+$_['text_success']      = 'Successo: Hai Modificato Le Classi di Iva!';
+$_['text_list']         = 'Lista Classi Iva';
+$_['text_add']          = 'Aggiungi Classi Di Iva';
+$_['text_edit']         = 'Modifica classi Di Iva';
+$_['text_shipping']     = 'Indirizzo Spedizione';
+$_['text_payment']      = 'Indirizzo Fatturazione';
+$_['text_store']        = 'Indirizzo Negozio';
+$_['text_success']      = 'Classi di tassa modificate con successo!';
+
+// Column
+$_['column_title']      = 'Nome Classe Iva';
+$_['column_action']     = 'Azione';
+
+// Entry
+$_['entry_title']       = 'Nome classe Iva:';
+$_['entry_description'] = 'Descrizione:';
+$_['entry_rate']        = 'Tasso:';
+$_['entry_based']       = 'Basata su:';
+$_['entry_geo_zone']    = 'Zona geografica:';
+$_['entry_priority']    = 'Priorit&agrave;:';
+
+// Error
+$_['error_permission']  = 'Attenzione: non hai i permessi per modificare le classi di tassa!';
+$_['error_title']       = 'Il nome della classe di tassa deve essere lungo almeno 3 caratteri e non pi&ugrave; di 32!';
+$_['error_description'] = 'La descrizione della classe di tassa deve essere lungo almeno 3 caratteri e non pi&ugrave; di 255!';
+$_['error_product']     = 'Attenzione: questa classe di tassa non pu&ograve; essere cancellata perch&eacute; &egrave; assegnata a %s prodotti!';
