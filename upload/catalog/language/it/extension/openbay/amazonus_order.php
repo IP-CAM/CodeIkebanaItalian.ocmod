@@ -8,3 +8,4 @@ $_['text_total_giftwrap_tax'] = 'Iva su Pacco regalo';
 $_['text_total_sub']          = 'Sub-totale';
 $_['text_tax']                = 'Iva';
 $_['text_total']              = 'Totale';
+$_['text_gift_message']       = 'Messaggi di regalo';

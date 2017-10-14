@@ -18,4 +18,5 @@ $_['entry_password']                = 'Password:';
 
 // Error
 $_['error_login']                   = 'Attenzione: E-Mail o Password errati.';
+$_['error_attempts']                = 'Attenzione: il tuo account ha superato il numero consentito di tentativi di accesso. Riprova in un\'ora.';
 $_['error_approved']                = 'Il tuo account deve essere approvato prima di poter accedere.';

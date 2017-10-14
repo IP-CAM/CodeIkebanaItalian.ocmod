@@ -15,6 +15,3 @@ $_['text_lastname']	  = 'Cognome:';
 $_['text_company']	  = 'Azienda:';
 $_['text_email']	  = 'E-Mail:';
 $_['text_telephone']	  = 'Telefono:';
-
-// unused
-$_['text_store']          = 'Negozio:';

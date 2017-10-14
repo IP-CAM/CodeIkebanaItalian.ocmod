@@ -1,5 +1,4 @@
 <?php
-//
 // Heading
 $_['heading_title']     = 'Recensioni';
 
@@ -8,6 +7,7 @@ $_['text_success']      = 'Recensioni modificate con successo!';
 $_['text_list']         = 'Lista Recensioni';
 $_['text_add']          = 'Aggiungi Recensione';
 $_['text_edit']         = 'Modifica Recensione';
+$_['text_filter']       = 'Filter';
 
 // Column
 $_['column_product']    = 'Prodotto';
@@ -23,6 +23,7 @@ $_['entry_author']      = 'Autore:';
 $_['entry_rating']      = 'Voto:';
 $_['entry_status']      = 'Stato:';
 $_['entry_text']        = 'Testo:';
+$_['entry_date_added']  = 'Data di inserimento';
 
 // Help
 $_['help_product']      = '(Autocomplete)';

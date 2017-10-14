@@ -3,4 +3,4 @@
 $_['heading_title'] = 'In primo Piano';
 
 // Text
-$_['text_reviews']  = 'Basato su %s giudizi.';
+$_['text_tax']      = 'Ex Tax:';

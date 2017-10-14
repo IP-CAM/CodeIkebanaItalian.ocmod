@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'I Pi&ugrave Venduti';
+$_['heading_title'] = 'I più venduti';
 
 // Text
-$_['text_reviews']  = 'Basato su %s giudizi.';
+$_['text_tax']      = 'Ex Tax:';

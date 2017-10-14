@@ -2,10 +2,12 @@
 // Heading
 $_['heading_title']     = 'Monitoraggio Marketing';
 
-$_['text_list']         = 'Lista Monitoraggio Marketing';
-
 // Text
 $_['text_success']      = 'Successo: Hai modificato il monitoraggio di Marketing!';
+$_['text_list']         = 'Lista Monitoraggio Marketing';
+$_['text_add']          = 'Add Marketing Tracking';
+$_['text_edit']         = 'Edit Marketing Tracking';
+$_['text_filter']       = 'Filter';
 
 // Column
 $_['column_name']       = 'Nome Campagna';
@@ -30,3 +32,4 @@ $_['help_example']      = 'Cos&igrave il sistema pu&ograve monitorare i referral
 $_['error_permission']  = 'Attenzone: Non si dispone dell\'autorizzazione per modificare il monitoraggio di marketing!';
 $_['error_name']        = 'Campagna deve essere compreso tra 1 e 32 caratteri!';
 $_['error_code']        = 'Tracking Code Obbligatorio!';
+$_['error_exists']      = 'Tracking code is being used by another campaign!';

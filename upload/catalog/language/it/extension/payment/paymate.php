@@ -1,6 +1,6 @@
- <?php
+<?php
 // Text
-$_['text_title']          = '<p><img border="0" src="catalog/view/theme/default/image/payment/paymate.png" width="120" height="20"></p>';
+$_['text_title']          = 'Credit Card / Debit Card (Paymate)';
 $_['text_unable']         = 'Impossibile individuare o aggiornare lo stato del tuo ordine';
 $_['text_declined']       = 'Pagamento rifiutato da Paymate';
 $_['text_failed']         = 'Transazione con Paymate fallita';

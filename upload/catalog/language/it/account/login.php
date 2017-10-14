@@ -18,4 +18,5 @@ $_['entry_password']               = 'Password:';
 
 // Error
 $_['error_login']                  = 'Attenzione: Nessuna corrispondenza per E-Mail e/o password.';
+$_['error_attempts']               = 'Attenzione: il tuo account ha superato il numero consentito di tentativi di accesso. Riprova in un\'ora.';
 $_['error_approved']               = 'Attenzione: Il tuo account deve essere approvato prima di poter effettuare il login.';

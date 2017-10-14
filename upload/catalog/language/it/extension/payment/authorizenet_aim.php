@@ -2,7 +2,6 @@
 // Text
 $_['text_title']           = '<p>Authorizenet Aim</p>';
 $_['text_credit_card']     = 'Dettagli Carta di Credito';
-$_['text_wait']            = 'Attendere!';
 
 // Entry
 $_['entry_cc_owner']       = 'Titolare Carta:';

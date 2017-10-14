@@ -32,9 +32,3 @@ $_['text_limit']        = 'Mostra:';
 // Entry
 $_['entry_search']      = 'Cerca:';
 $_['entry_description'] = 'Cerca nella descrizione dei prodotti';
-
-// unused
-$_['text_list']         = 'Lista';
-$_['text_grid']         = 'Griglia';
-$_['text_critea']       = 'Criterio di ricerca';
-$_['text_display']      = 'Display:';

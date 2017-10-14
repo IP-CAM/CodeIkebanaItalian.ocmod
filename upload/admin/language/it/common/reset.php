@@ -1,9 +1,8 @@
 <?php
-// header
+// Heading
 $_['heading_title']  = 'Reimposta la tua password';
 
 // Text
-$_['text_reset']     = 'Reimposta la tua password!';
 $_['text_password']  = 'Inserisci la nuova password che vorresti utilizzare.';
 $_['text_success']   = 'La tua password &egrave; stata reimpostata con successo.';
 

@@ -2,7 +2,6 @@
 // Text
 $_['text_title']           = 'Sagepay US';
 $_['text_credit_card']     = 'Dettagli Carta';
-$_['text_wait']            = 'Attendere!';
 
 // Entry
 $_['entry_cc_owner']       = 'Titolare Carta:';

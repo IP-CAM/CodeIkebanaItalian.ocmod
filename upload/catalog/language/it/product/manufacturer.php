@@ -25,9 +25,3 @@ $_['text_rating_desc']  = 'Rating (Maggiore)';
 $_['text_model_asc']    = 'Modello (A - Z)';
 $_['text_model_desc']   = 'Modello (Z - A)';
 $_['text_limit']        = 'Mostra:';
-
-// unused here
-$_['text_reviews']      = 'Basato su %s visite.';
-$_['text_display']      = 'Display:';
-$_['text_list']         = 'Lista';
-$_['text_grid']         = 'Griglia';

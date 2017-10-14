@@ -19,6 +19,10 @@ $_['entry_theme']      = 'Tema del Buono Regalo:';
 $_['entry_message']    = 'Messaggio:<br /><span class="help">(Optional)</span>';
 $_['entry_amount']     = 'Ammontare:<br /><span class="help">(Value must be between %s and %s)</span>';
 
+// Help
+$_['help_message']     = 'Opzionale';
+$_['help_amount']      = 'Il valore deve essere compreso tra %s e %s';
+
 // Error
 $_['error_to_name']    = 'Il nome del destinatario deve essere compreso tra i 2 e i 64 caratteri!';
 $_['error_from_name']  = 'Il tuo nome deve essere compreso tra i 2 e i 24 caratteri!';

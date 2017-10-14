@@ -7,6 +7,9 @@ $_['text_success']        = 'Successo: Hai Modificato Il Modulo Disposizione!';
 $_['text_list']           = 'Lista Disposizioni';
 $_['text_add']            = 'Aggiungi Disposizione';
 $_['text_edit']           = 'Modifica Disposizione';
+$_['text_remove']         = 'Remove';
+$_['text_route']          = 'Choose the store and routes to be used with this layout';
+$_['text_module']         = 'Choose the position of the modules';
 $_['text_default']        = 'Standard';
 $_['text_content_top']    = 'In Alto';
 $_['text_content_bottom'] = 'In Basso';
@@ -22,8 +25,6 @@ $_['entry_name']          = 'Nome Della Disposizione';
 $_['entry_store']         = 'Negozio';
 $_['entry_route']         = 'Percorso';
 $_['entry_module']        = 'Modulo';
-$_['entry_position']      = 'Posizionee';
-$_['entry_sort_order']    = 'Ordinamento';
 
 // Error
 $_['error_permission']    = 'Attenzione: Non Si Dispone Dell\'Autorizzazione per Modificare Il Modulo Disposizione!';

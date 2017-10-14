@@ -48,10 +48,3 @@ $_['tab_review']               = 'Recensioni (%s)';
 $_['error_name']               = 'Attenzione: Il nome della recensione deve essere compreso tra i 3 e i 25 caratteri!';
 $_['error_text']               = 'Attenzione: Il testo della recensione deve essere compreso tra i 25 e 1000 caratteri!';
 $_['error_rating']             = 'Attenzione: Dai un voto!';
-
-// unused
-$_['text_price']        = 'Prezzo:';
-$_['text_share']        = 'Condividi';
-$_['entry_captcha']     = 'Inserisci il codice nel box sottostante:';
-$_['tab_related']       = 'Prodotti Correlati';
-$_['error_captcha']     = 'Attenzione: Il codice di verifica non corrisponde con l\'immagine!';

@@ -14,4 +14,4 @@ $_['text_account']      = 'Account';
 $_['text_order']        = 'Storico Ordini';
 $_['text_wishlist']     = 'Lista Desideri';
 $_['text_newsletter']   = 'Newsletter';
-$_['text_powered']      = 'Powered By <a href="http://www.informaticazone.it">By <b>INFORMATICAZONE</b></a>';
+$_['text_powered']      = 'Powered By <a href="http://www.opencart.com">OpenCart</a><br /> %s &copy; %s';

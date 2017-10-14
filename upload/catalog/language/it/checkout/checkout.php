@@ -91,11 +91,3 @@ $_['error_no_shipping']              = 'Attenzione: Nessuna opzione di spedizion
 $_['error_payment']                  = 'Attenzione: Metodo di pagamento richiesto!';
 $_['error_no_payment']               = 'Attenzione:  Nessun metodo di pagamento disponibile. Per favore <a href="%s">contatta </a> per assistenza!';
 $_['error_custom_field']             = '%s Obbligatorio!';
-
-// unused
-$_['entry_fax']                      = 'Fax:';
-$_['entry_tax_id']                   = 'Codice Fiscale :';
-$_['entry_company_id']               = 'Partita Iva: ';
-$_['error_company_id']               = 'ID Azienda &egrave; richiesto!';
-$_['error_tax_id']                   = 'ID &egrave; richiesto!';
-$_['error_vat']                      = 'Il numeero IVA non &egrave; corretto';

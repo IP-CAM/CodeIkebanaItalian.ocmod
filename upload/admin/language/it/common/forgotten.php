@@ -1,5 +1,4 @@
 <?php
-//
 // header
 $_['heading_title']   = 'Dimenticato la tua Password?';
 

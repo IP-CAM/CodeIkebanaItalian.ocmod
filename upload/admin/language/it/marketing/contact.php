@@ -5,6 +5,7 @@ $_['heading_title']        = 'Mail';
 // Text
 $_['text_success']         = 'Il Tuo Messaggio e Stao Corretamente Inviato!';
 $_['text_sent']            = 'Il tuo messaggio &egrave stato inviato con successo %s a %s destinatari!';
+$_['text_list']            = 'Mail List';
 $_['text_default']         = 'Default';
 $_['text_newsletter']      = 'Tutti gli Iscritti Alla Newsletter';
 $_['text_customer_all']    = 'Tutti i Clienti';
@@ -25,9 +26,9 @@ $_['entry_subject']        = 'Oggetto';
 $_['entry_message']        = 'Messaggio';
 
 // Help
-$_['help_customer']       = 'Autocomplete';
-$_['help_affiliate']      = 'Autocomplete';
-$_['help_product']        = 'Invia solo hai clienti che hanno ordinato i prodotti nell\'elenco. (Autocomplete)';
+$_['help_customer']        = 'Autocomplete';
+$_['help_affiliate']       = 'Autocomplete';
+$_['help_product']         = 'Invia solo hai clienti che hanno ordinato i prodotti nell\'elenco. (Autocomplete)';
 
 // Error
 $_['error_permission']     = 'Attenzione: Non hai il permesso di inviare le E-Mail!';

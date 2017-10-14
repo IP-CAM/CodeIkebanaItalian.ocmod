@@ -39,7 +39,3 @@ $_['error_minimum']            = 'L\'ordiene minimo per %s &egrave; %s!';
 $_['error_required']           = '%s richiesto!';
 $_['error_product']            = 'Attenzione: Non hai prodotti nel carrello!';
 $_['error_recurring_required'] = 'Si Prega Di Selezionare Un Metodo Di Pagamento!';
-
-// unused
-$_['text_length']              = ' Per %s Pagamenti';
-$_['text_until_cancelled']     = 'Fino all\'Annullamento';

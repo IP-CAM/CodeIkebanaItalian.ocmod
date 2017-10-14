@@ -2,7 +2,6 @@
 // Text
 $_['text_success']     = 'Successo: Lo sconto del buono regalo &egrave stato applicato!';
 $_['text_cart']        = 'Successo: Hai modificato il tuo carrello della spesa!';
-
 $_['text_for']         = '%s Buono Regalo per %s';
 
 // Error

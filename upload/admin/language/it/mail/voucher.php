@@ -1,5 +1,6 @@
 <?php
 // Text
+$_['text_success']  = 'Success: You have modified vouchers!';
 $_['text_subject']  = 'Ti &egrave; stato inviato un voucher regalo da %s';
 $_['text_greeting'] = 'Congratulazioni, hai ricevuto un voucher regalo del valore di %s';
 $_['text_from']     = 'Questo regalo ti &egrave; stato inviato da %s';

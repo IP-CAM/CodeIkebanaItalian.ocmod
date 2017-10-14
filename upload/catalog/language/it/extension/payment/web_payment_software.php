@@ -1,8 +1,7 @@
 <?php
 // Text
-$_['text_title']           = '<p>Web Payment Software</p>';
+$_['text_title']           = 'Credit Card / Debit Card (Web Payment Software)';
 $_['text_credit_card']     = 'Dettagli Carta';
-$_['text_wait']            = 'Attendere!';
 
 // Entry
 $_['entry_cc_owner']       = 'Titolare Carta:';
