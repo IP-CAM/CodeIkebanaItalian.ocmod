@@ -18,5 +18,3 @@ $_['entry_cc_issue']       = 'Numero della Scheda di Immissione:';
 // Help
 $_['help_start_date']      = '(se disponibili)';
 $_['help_issue']           = '(per Maestro e carte di credito Solo)';
-
-

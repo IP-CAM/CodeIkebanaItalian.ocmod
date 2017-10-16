@@ -70,4 +70,7 @@ $_['error_upload_8']        = 'Attenzione: upload di file fermato per estensione
 $_['error_upload_999']      = 'Attenzione: nessun codice di errore disponibile!';
 $_['error_curl']            = 'CURL: Error Code(%s): %s';
 
+// Summernote
+$_['summernote']            = 'it-IT';
+// Datepicker
 $_['datepicker']            = 'it';

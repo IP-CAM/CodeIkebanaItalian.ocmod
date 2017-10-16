@@ -1,5 +1,4 @@
 <?php
-
 $_['heading_title']            = 'Square Credit Cards';
 
 $_['text_account']             = 'Account';
