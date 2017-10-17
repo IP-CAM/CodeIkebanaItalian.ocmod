@@ -8,7 +8,7 @@ class ControllerExtensionModuleCodeIkebanaItalian extends Controller
     private $error = array();
 
     // Language
-    private $language_pl = array(
+    private $language_it = array(
         'name' => 'Italian',
         'code' => 'it',
         'locale' => 'it-IT,UTF-8',
@@ -134,100 +134,100 @@ class ControllerExtensionModuleCodeIkebanaItalian extends Controller
         $this->load->model('localisation/language');
 
         // Language
-        $language_id = $this->model_localisation_language->addLanguage($this->language_pl);
+        $language_id = $this->model_localisation_language->addLanguage($this->language_it);
 
         // Currency
 //        $this->load->model('localisation/currency');
 //        $currency_id = $this->model_localisation_currency->addCurrency($this->currency_pl);
 //        $this->model_localisation_currency->refresh(true);
         // Edit stock statuses
-        $this->load->model('localisation/stock_status');
-        $stock_statuses_query = $this->model_localisation_stock_status->getStockStatuses();
-        if (count($stock_statuses_query) && $language_id) {
-            foreach ($stock_statuses_query as $result) {
-                if (isset($this->stock_statuses[$result['name']])) {
-                    $this->db->query("UPDATE " . DB_PREFIX . "stock_status SET name = '" . $this->db->escape($this->stock_statuses[$result['name']]) . "' WHERE stock_status_id = '" . (int) $result['stock_status_id'] . "' AND language_id = '" . (int) $language_id . "'");
-                }
-            }
-        }
+//        $this->load->model('localisation/stock_status');
+//        $stock_statuses_query = $this->model_localisation_stock_status->getStockStatuses();
+//        if (count($stock_statuses_query) && $language_id) {
+//            foreach ($stock_statuses_query as $result) {
+//                if (isset($this->stock_statuses[$result['name']])) {
+//                    $this->db->query("UPDATE " . DB_PREFIX . "stock_status SET name = '" . $this->db->escape($this->stock_statuses[$result['name']]) . "' WHERE stock_status_id = '" . (int) $result['stock_status_id'] . "' AND language_id = '" . (int) $language_id . "'");
+//                }
+//            }
+//        }
+//
+//        // Edit order statuses
+//        $this->load->model('localisation/order_status');
+//        $order_statuses_query = $this->model_localisation_order_status->getOrderStatuses();
+//        if (count($order_statuses_query) && $language_id) {
+//            foreach ($order_statuses_query as $result) {
+//                if (isset($this->order_statuses[$result['name']])) {
+//                    $this->db->query("UPDATE " . DB_PREFIX . "order_status SET name = '" . $this->db->escape($this->order_statuses[$result['name']]) . "' WHERE order_status_id = '" . (int) $result['order_status_id'] . "' AND language_id = '" . (int) $language_id . "'");
+//                }
+//            }
+//        }
+//
+//        // Edit return statuses
+//        $this->load->model('localisation/return_status');
+//        $return_statuses_query = $this->model_localisation_return_status->getReturnStatuses();
+//        if (count($return_statuses_query) && $language_id) {
+//            foreach ($return_statuses_query as $result) {
+//                if (isset($this->return_statuses[$result['name']])) {
+//                    $this->db->query("UPDATE " . DB_PREFIX . "return_status SET name = '" . $this->db->escape($this->return_statuses[$result['name']]) . "' WHERE return_status_id = '" . (int) $result['return_status_id'] . "' AND language_id = '" . (int) $language_id . "'");
+//                }
+//            }
+//        }
+//
+//        // Edit return actions statuses
+//        $this->load->model('localisation/return_action');
+//        $return_action_statuses_query = $this->model_localisation_return_action->getReturnActions();
+//        if (count($return_action_statuses_query) && $language_id) {
+//            foreach ($return_action_statuses_query as $result) {
+//                if (isset($this->return_action_statuses[$result['name']])) {
+//                    $this->db->query("UPDATE " . DB_PREFIX . "return_action SET name = '" . $this->db->escape($this->return_action_statuses[$result['name']]) . "' WHERE return_action_id = '" . (int) $result['return_action_id'] . "' AND language_id = '" . (int) $language_id . "'");
+//                }
+//            }
+//        }
+//
+//        // Edit return reasons statuses
+//        $this->load->model('localisation/return_reason');
+//        $return_reason_statuses_query = $this->model_localisation_return_reason->getReturnReasons();
+//        if (count($return_reason_statuses_query) && $language_id) {
+//            foreach ($return_reason_statuses_query as $result) {
+//                if (isset($this->return_reason_statuses[$result['name']])) {
+//                    $this->db->query("UPDATE " . DB_PREFIX . "return_reason SET name = '" . $this->db->escape($this->return_reason_statuses[$result['name']]) . "' WHERE return_reason_id = '" . (int) $result['return_reason_id'] . "' AND language_id = '" . (int) $language_id . "'");
+//                }
+//            }
+//        }
+//
+//        // Edit length class
+//        $this->load->model('localisation/length_class');
+//        $length_class_query = $this->model_localisation_length_class->getLengthClasses();
+//        if (count($length_class_query) && $language_id) {
+//            foreach ($length_class_query as $result) {
+//                if (isset($this->length_class[$result['title']])) {
+//                    $this->db->query("UPDATE " . DB_PREFIX . "length_class_description SET title = '" . $this->db->escape($this->length_class[$result['title']]) . "' WHERE length_class_id = '" . (int) $result['length_class_id'] . "' AND language_id = '" . (int) $language_id . "'");
+//                }
+//            }
+//        }
+//
+//        // Edit weight class
+//        $this->load->model('localisation/weight_class');
+//        $weight_class_query = $this->model_localisation_weight_class->getWeightClasses();
+//        if (count($weight_class_query) && $language_id) {
+//            foreach ($weight_class_query as $result) {
+//                if (isset($this->weight_class[$result['title']])) {
+//                    $this->db->query("UPDATE " . DB_PREFIX . "weight_class_description SET title = '" . $this->db->escape($this->weight_class[$result['title']]) . "' WHERE weight_class_id = '" . (int) $result['weight_class_id'] . "' AND language_id = '" . (int) $language_id . "'");
+//                }
+//            }
+//        }
 
-        // Edit order statuses
-        $this->load->model('localisation/order_status');
-        $order_statuses_query = $this->model_localisation_order_status->getOrderStatuses();
-        if (count($order_statuses_query) && $language_id) {
-            foreach ($order_statuses_query as $result) {
-                if (isset($this->order_statuses[$result['name']])) {
-                    $this->db->query("UPDATE " . DB_PREFIX . "order_status SET name = '" . $this->db->escape($this->order_statuses[$result['name']]) . "' WHERE order_status_id = '" . (int) $result['order_status_id'] . "' AND language_id = '" . (int) $language_id . "'");
-                }
-            }
-        }
-
-        // Edit return statuses
-        $this->load->model('localisation/return_status');
-        $return_statuses_query = $this->model_localisation_return_status->getReturnStatuses();
-        if (count($return_statuses_query) && $language_id) {
-            foreach ($return_statuses_query as $result) {
-                if (isset($this->return_statuses[$result['name']])) {
-                    $this->db->query("UPDATE " . DB_PREFIX . "return_status SET name = '" . $this->db->escape($this->return_statuses[$result['name']]) . "' WHERE return_status_id = '" . (int) $result['return_status_id'] . "' AND language_id = '" . (int) $language_id . "'");
-                }
-            }
-        }
-
-        // Edit return actions statuses
-        $this->load->model('localisation/return_action');
-        $return_action_statuses_query = $this->model_localisation_return_action->getReturnActions();
-        if (count($return_action_statuses_query) && $language_id) {
-            foreach ($return_action_statuses_query as $result) {
-                if (isset($this->return_action_statuses[$result['name']])) {
-                    $this->db->query("UPDATE " . DB_PREFIX . "return_action SET name = '" . $this->db->escape($this->return_action_statuses[$result['name']]) . "' WHERE return_action_id = '" . (int) $result['return_action_id'] . "' AND language_id = '" . (int) $language_id . "'");
-                }
-            }
-        }
-
-        // Edit return reasons statuses
-        $this->load->model('localisation/return_reason');
-        $return_reason_statuses_query = $this->model_localisation_return_reason->getReturnReasons();
-        if (count($return_reason_statuses_query) && $language_id) {
-            foreach ($return_reason_statuses_query as $result) {
-                if (isset($this->return_reason_statuses[$result['name']])) {
-                    $this->db->query("UPDATE " . DB_PREFIX . "return_reason SET name = '" . $this->db->escape($this->return_reason_statuses[$result['name']]) . "' WHERE return_reason_id = '" . (int) $result['return_reason_id'] . "' AND language_id = '" . (int) $language_id . "'");
-                }
-            }
-        }
-
-        // Edit length class
-        $this->load->model('localisation/length_class');
-        $length_class_query = $this->model_localisation_length_class->getLengthClasses();
-        if (count($length_class_query) && $language_id) {
-            foreach ($length_class_query as $result) {
-                if (isset($this->length_class[$result['title']])) {
-                    $this->db->query("UPDATE " . DB_PREFIX . "length_class_description SET title = '" . $this->db->escape($this->length_class[$result['title']]) . "' WHERE length_class_id = '" . (int) $result['length_class_id'] . "' AND language_id = '" . (int) $language_id . "'");
-                }
-            }
-        }
-
-        // Edit weight class
-        $this->load->model('localisation/weight_class');
-        $weight_class_query = $this->model_localisation_weight_class->getWeightClasses();
-        if (count($weight_class_query) && $language_id) {
-            foreach ($weight_class_query as $result) {
-                if (isset($this->weight_class[$result['title']])) {
-                    $this->db->query("UPDATE " . DB_PREFIX . "weight_class_description SET title = '" . $this->db->escape($this->weight_class[$result['title']]) . "' WHERE weight_class_id = '" . (int) $result['weight_class_id'] . "' AND language_id = '" . (int) $language_id . "'");
-                }
-            }
-        }
-
-        // Add geo zone
-        if ($language_id) {
-            $this->load->model('localisation/geo_zone');
-            $geo_zone_id = $this->model_localisation_geo_zone->addGeoZone($this->geoZone);
-        }
+//        // Add geo zone
+//        if ($language_id) {
+//            $this->load->model('localisation/geo_zone');
+//            $geo_zone_id = $this->model_localisation_geo_zone->addGeoZone($this->geoZone);
+//        }
 
         // Add tax classes and rates
-        if ($geo_zone_id) {
-            // Add tax rates
-            $this->load->model('localisation/tax_rate');
-            // Add 23
+//        if ($geo_zone_id) {
+//            // Add tax rates
+//            $this->load->model('localisation/tax_rate');
+//            // Add 23
 //            $this->tax_23['geo_zone_id'] = $geo_zone_id;
 //            $this->tax_23['tax_rate_customer_group'] = array($this->config->get('config_customer_group_id'));
 //            $tax_rate_23_id = $this->model_localisation_tax_rate->addTaxRate($this->tax_23);
@@ -269,11 +269,11 @@ class ControllerExtensionModuleCodeIkebanaItalian extends Controller
 //                )
 //            );
 //            $tax_class_5_id = $this->model_localisation_tax_class->addTaxClass($this->tax_class_5);
-        }
+//        }
 
         $toSaveData = ['codeikebana_italian_language_id' => $language_id,
 //                       'codeikebana_polish_currency_id'     => $currency_id,
-            'codeikebana_italian_geo_zone_id' => $geo_zone_id,
+//            'codeikebana_italian_geo_zone_id' => $geo_zone_id,
 //                       'codeikebana_polish_tax_rate_23_id'  => $tax_rate_23_id,
 //                       'codeikebana_polish_tax_rate_8_id'   => $tax_rate_8_id,
 //                       'codeikebana_polish_tax_rate_5_id'   => $tax_rate_5_id,
@@ -318,13 +318,12 @@ class ControllerExtensionModuleCodeIkebanaItalian extends Controller
 //        $this->model_localisation_tax_rate->deleteTaxRate($module_settings['codeikebana_italian_tax_rate_5_id']);
 
         // Add geo zone
-        $this->load->model('localisation/geo_zone');
-        $this->model_localisation_geo_zone->deleteGeoZone($module_settings['codeikebana_italian_geo_zone_id']);
+//        $this->load->model('localisation/geo_zone');
+//        $this->model_localisation_geo_zone->deleteGeoZone($module_settings['codeikebana_italian_geo_zone_id']);
 
         // remove settings
         $this->model_setting_setting->deleteSetting('codeikebana_italian');
 
         //done! everything else will be deleted automatically during save
     }
-
 }
